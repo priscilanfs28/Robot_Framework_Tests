@@ -85,7 +85,7 @@ Preencher os campos obrigatórios
     Click Element                    id=id_gender2
     Input Text                      //*[@id="customer_firstname"]     Maria
     Input Text                      //*[@id="customer_lastname"]      Souza
-    Input Text                      id=email_create    ${EMAIL}@testerobot.com
+    Input Text                      //*[@id="email"]    mariasouza@gmail.com
     Input Password                  //*[@id="passwd"]    Teste12345!
     Select From List By Value       //*[@id="days"]    12
     Select From List By Value       //*[@id="months"]    4
